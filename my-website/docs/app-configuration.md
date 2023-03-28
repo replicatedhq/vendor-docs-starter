@@ -1,6 +1,6 @@
-# Configuring and Deploying [App Name]
+# Configuring and Deploying the App
 
-<!-- Provide a topic sentence, such as the one below -->
+[Provide a topic sentence, such as the one below]
 
 This topic includes procedures for configuring the following [components/features/functionality] of [App Name]:
 * [component/feature/functionality]
@@ -9,20 +9,20 @@ This topic includes procedures for configuring the following [components/feature
 
 ## Overview of Configuring [App Name]
 
-<!-- Include an Overview section to give an introduction to the
+[Include an Overview section to give an introduction to the
 configuration process.
 For example, you can include descriptions of terminology, provide any
 recommendations, or describe why completing the configuration procedures
-is important.-->
+is important.]
 
 ## Prerequisites <!-- Remove this Prerequisites section if not needed. -->
 
-<!-- Include an optional Prerequisites section is there are tasks a user
-must do or information a user must gather before configuring. -->
+[Include an optional Prerequisites section is there are tasks a user
+must do or information a user must gather before configuring.]
 
 Before you configure [App Name], do the following:
 
-* Prerequisite <!-- Example: "Ensure that port 8800 is open."-->
+* Prerequisite Example: "Ensure that port 8800 is open."
 * Prerequisite
 
 ## Configure [App Name]
@@ -31,10 +31,10 @@ This section includes procedures for configuring [App Name].
 
 ### Configure [Section 1]
 
-<!-- This section heading should most likely match the title of
+[This section heading should most likely match the title of
 the corresponding section in the Replicated admin console
 configuration screen.
-Example: "Configure Networking"-->
+Example: "Configure Networking"]
 
 [Configuration Section 1] includes fields for configuring [a feature or service] in [App Name].
 
@@ -106,11 +106,10 @@ To complete the preflight checks and deploy [App Name]:
 
   After preflight checks are complete, the application is deployed, and the admin console dashboard opens.
 
-<!-- ## Additional Resources
+## Additional Resources
 
 * Link 1
 * Link 2
 
 [Include an optional Additional Resources section ONLY if there is a specific reason that the users must or should reference these links.]
 
--->

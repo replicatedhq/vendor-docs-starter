@@ -1,0 +1,1 @@
+# Uninstall the Admin Console
