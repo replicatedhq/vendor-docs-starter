@@ -51,33 +51,49 @@ const sidebars = {
       type: 'category',
       label: 'Admin Console',
       items: [
-        {
-          type: 'category',
-          label: 'Updating',
-          items: [
-            'updating',
-            'license-sync',
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Backup and Restore',
-          items: [
-            'snapshots-storage',
-            'snapshots-create-backup',
-            'snapshots-restore',
-          ],
-        },
+        'admin-console-access',
+        'admin-console-password',
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Configuring',
+      items: [
+        'configuring',
       ],
     },
     {
       type: 'category',
-      label: 'Using [APP NAME]',
+      label: 'Using',
       items: [
         'using',
       ],
     },
-    'troubleshooting',
+    {
+      type: 'category',
+      label: 'Updating',
+      items: [
+        'updating',
+        'license-sync',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Backup and Restore',
+      items: [
+        'snapshots-storage',
+        'snapshots-create-backup',
+        'snapshots-restore',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Troubleshooting',
+      items: [
+        'troubleshooting',
+        'support-bundles',
+      ],
+    },
     {
       type: 'category',
       label: 'Reference',
