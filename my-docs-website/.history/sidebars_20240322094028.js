@@ -41,18 +41,18 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Configuring',
-      items: [
-        'configuring',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Admin Console',
       items: [
         'admin-console-access',
         'admin-console-password',
       ]
+    },
+    {
+      type: 'category',
+      label: 'Configuring',
+      items: [
+        'configuring',
+      ],
     },
     {
       type: 'category',

@@ -24,7 +24,7 @@ const sidebars = {
         'install-requirements',
         {
           type: 'category',
-          label: '[Installation Option One]',
+          label: 'Installing in Your Own Cluster',
           items: [
             'install',
             'install-air-gap',
@@ -32,60 +32,52 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: '[Installation Option Two]',
+          label: 'Installing in an Embedded Cluster',
           items: [
-            'install-option-two',
+            'install-embedded',
+            'install-embedded-air-gap',
+          ],
+        },
+        {
+          type: 'category',
+          label: '[Other Installation Option]',
+          items: [
+            'install-other',
           ],
         },
       ],
     },
     {
       type: 'category',
-      label: 'Configuring',
+      label: 'Managing [APP NAME]',
       items: [
-        'configuring',
+        {
+          type: 'category',
+          label: 'Updating',
+          items: [
+            'updating',
+            'license-sync',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Backup and Restore',
+          items: [
+            'snapshots-storage',
+            'snapshots-create-backup',
+            'snapshots-restore',
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: 'Admin Console',
-      items: [
-        'admin-console-access',
-        'admin-console-password',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Using',
+      label: 'Using [APP NAME]',
       items: [
         'using',
       ],
     },
-    {
-      type: 'category',
-      label: 'Updating',
-      items: [
-        'updating',
-        'license-sync',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Backup and Restore',
-      items: [
-        'snapshots-storage',
-        'snapshots-create-backup',
-        'snapshots-restore',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Troubleshooting',
-      items: [
-        'troubleshooting',
-        'support-bundles',
-      ],
-    },
+    'troubleshooting',
     {
       type: 'category',
       label: 'Reference',

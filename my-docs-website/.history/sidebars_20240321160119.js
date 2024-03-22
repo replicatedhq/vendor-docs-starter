@@ -24,7 +24,7 @@ const sidebars = {
         'install-requirements',
         {
           type: 'category',
-          label: '[Installation Option One]',
+          label: 'Installing in Your Own Cluster',
           items: [
             'install',
             'install-air-gap',
@@ -32,33 +32,19 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: '[Installation Option Two]',
+          label: 'Installing in an Embedded Cluster',
           items: [
-            'install-option-two',
+            'install-embedded',
+            'install-embedded-air-gap',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Configuring',
-      items: [
-        'configuring',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Admin Console',
-      items: [
-        'admin-console-access',
-        'admin-console-password',
-      ]
-    },
-    {
-      type: 'category',
-      label: 'Using',
-      items: [
-        'using',
+        {
+          type: 'category',
+          label: '[Other Installation Option]',
+          items: [
+            'install-other',
+          ],
+        },
       ],
     },
     {
@@ -80,12 +66,12 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Troubleshooting',
+      label: 'Using [APP NAME]',
       items: [
-        'troubleshooting',
-        'support-bundles',
+        'using',
       ],
     },
+    'troubleshooting',
     {
       type: 'category',
       label: 'Reference',

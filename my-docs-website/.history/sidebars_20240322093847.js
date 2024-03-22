@@ -34,16 +34,9 @@ const sidebars = {
           type: 'category',
           label: '[Installation Option Two]',
           items: [
-            'install-option-two',
+            'install-other',
           ],
         },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Configuring',
-      items: [
-        'configuring',
       ],
     },
     {
@@ -53,6 +46,13 @@ const sidebars = {
         'admin-console-access',
         'admin-console-password',
       ]
+    },
+    {
+      type: 'category',
+      label: 'Configuring',
+      items: [
+        'configuring',
+      ],
     },
     {
       type: 'category',

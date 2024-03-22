@@ -1,6 +1,6 @@
 # Troubleshooting
 
-This topic includes troubleshooting information for [APP NAME].
+This topic includes troubleshooting information for [APP NAME]
 ## Issue Heading
 
 ### Symptom

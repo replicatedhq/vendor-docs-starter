@@ -1,4 +1,4 @@
-# Option One Installation
+# Option Two Installation
 
 ## Prerequisites
 
