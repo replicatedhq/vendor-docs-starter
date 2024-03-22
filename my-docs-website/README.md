@@ -1,41 +1,37 @@
-# Website
+# Welcome
+
+This repository contains a sample documentation site for software vendors that distribute their application with [Replicated KOTS](https://docs.replicated.com). Vendors can use this template site to write documentation for their end users that describes how to install and manage their application.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Getting Started with Docusaurus
+
+### Requirement
+
+Node.js version 18.0 or later. Check your version of Node.js by running `node -v`.
+
+### Install Docusaurus
 
 ```
-$ yarn
+yarn add docusaurus
 ```
 
-### Local Development
+### Run a Local Development Server
+
+Start a local development server and view a preview of the site in a browser window. Most changes are reflected live without having to restart the server.
 
 ```
-$ yarn start
+cd vendor-dos-starter
+yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### Build the Website
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+Generate static content into the `build` directory.
 
 ```
-$ USE_SSH=true yarn deploy
+cd vendor-dos-starter
+yarn build
 ```
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Cloning the Sample Site
