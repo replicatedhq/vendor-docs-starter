@@ -1,4 +1,6 @@
-# Welcome to the Vendor Starter Documentation
+**Deprecation notice:** This repo has been deprecated and is no longer maintained. For up-to-date guidance on writing documentation for applications distributed with Replicated, including examples and templates, see [Writing Great Documentation for On-Prem Software Distributed with Replicated](https://www.replicated.com/blog/writing-great-documentation-for-on-prem-software-distributed-with-replicated).
+
+# Welcome to the Vendor Starter Documentation (Deprecated)
 
 This repository contains documentation templates for software vendors distributing their application with Replicated. Vendors can use these templates to write documentation for their end users that describes how to install and manage their application.
 
